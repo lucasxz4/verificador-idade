@@ -9,7 +9,7 @@ let sexo = document.getElementsByName('sexo')
 let btn = document.getElementsByClassName('verif')[0]
 let resultado = document.querySelector('.parag')
 let foto = document.createElement('img')
-foto.style.margin = '30px 0px'
+// foto.style.margin = '20px 0px 0px 0px'
 foto.style.borderRadius = '360px'
 btn.addEventListener('click', function () {
     let ano = Number(nasc.value) //ANO DO NASCIMENTO
