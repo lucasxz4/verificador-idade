@@ -1,0 +1,58 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: #3571b9;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+    padding: 30px 0px
+}
+#formulario {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+}
+.ano, .sexo, .ver {
+    padding: 10px 5px;
+}
+.ano label, .sexo label {
+    font-style: italic;
+}
+.ano input {
+    padding: 3px;
+}
+.sexo {
+    display: flex;
+    gap: 1.2rem;
+}
+.ver {
+    text-align: center;
+}
+.ver input {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0000007c;
+    color: #fff;
+    cursor: pointer;
+}
+.parag {
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    color: #fff;
+    font-weight: bold;
+}
